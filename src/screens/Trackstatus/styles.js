@@ -1,0 +1,103 @@
+export const styles = (theme) => ({
+  cctnsearchBox1: {
+    padding: "20px",
+    margin: "10px 0",
+
+    width: "maxcontent",
+    textAlign: "Left",
+    marginBottom: "20px",
+    marginRight: "auto",
+
+    background: "#eceff4",
+    borderRadius: "5px",
+    padding: `${theme.spacing.unit * 3}px 0 ${theme.spacing.unit * 5}px`,
+    width: "70%",
+    color: "#DBE3E9",
+    strokeWidth: "30",
+  },
+  jssHeight: {
+    height: "100%",
+  },
+  selectEmpty: {
+    position: "relative",
+    minWidth: "93%",
+    background: "#ffffff 0% 0%",
+    borderRadius: " 4px",
+    opacity: "1",
+    marginTop: "8px",
+    fontSize: "small",
+    border: " 1px solid #ccc",
+    // paddingRight: "24px",
+    padding: "3px 14px",
+    color: "#a2a2a2",
+  },
+  clearSearchBtn: {
+    padding: "0",
+    margin: "9px 0 0 0",
+    width: "112px",
+    textAlign: "right",
+    lineHeight: "40px",
+    height: "39px",
+    color: "#ffffff",
+    backgroundColor: "#1daab1",
+    fontSize: "small",
+    textTransform: "none",
+  },
+  dashboardContent: {
+    marginTop: "50px",
+  },
+  h6: {
+    fontSize: "1.25rem",
+    letterSpacing: "0px",
+    color: "#1daab1",
+    opacity: "1",
+    marginLeft: "27px",
+    fontWeight: "500",
+  },
+  iconContainer: {
+    transform: "scale(1.5)",
+    marginRight: theme.spacing.unit * 5,
+  },
+  papercontent: {
+    display: " flex",
+    background: " white",
+    borderRadius: " 4px",
+    padding: "20px",
+    boxShadow: " 0px 0px 3px #20396b1a",
+    width: "34%",
+    marginTop: "-7%",
+    marginLeft: "1%",
+  },
+
+  cctnsearchBox: {
+    padding: "20px",
+    margin: "10px 0",
+
+    width: "maxcontent",
+    textAlign: "Left",
+    marginBottom: "20px",
+    marginRight: "auto",
+
+    // background: "#eceff4",
+    // borderRadius: "5px",
+    // borderRadius: "-800px",
+    // borderWidth: "90%",
+    // strokeWidth: "30",
+  },
+  cctnsearchBox1: {
+    padding: "20px",
+    margin: "10px 0",
+
+    width: "maxcontent",
+    textAlign: "Left",
+    marginBottom: "20px",
+    marginRight: "auto",
+
+    background: "#eceff4",
+    borderRadius: "5px",
+    padding: `${theme.spacing.unit * 3}px 0 ${theme.spacing.unit * 5}px`,
+    width: "70%",
+    color: "#DBE3E9",
+    strokeWidth: "30",
+  },
+});
